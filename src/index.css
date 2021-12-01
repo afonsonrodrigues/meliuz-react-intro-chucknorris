@@ -1,36 +1,58 @@
-*{
-  padding: 0;
-  margin: 0;
-  font-family: 'Lobster', cursive;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lobster", cursive;
+}
+body {
+    /*padding: 15px;*/
+    margin: 0;
 }
 
-.loader{
-  display: flex;
-  justify-content:  center;
-  align-items: center;
-  height: 70vh;
-  /* background-image: url(./assets/loader.gif);
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* background-image: url(./assets/loader.gif);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; */
 }
 
-.home-component{
-  text-align: center;
-  width: 75%;
-  margin: auto;
+.home-component {
+    text-align: center;
+    width: 75%;
+    margin: auto;
 }
 
-.home-component .jokes{
-  height: 500px
+.home-component .jokes {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.home-component .jokes img {
+    display: inline;
+    padding-top: 30px;
+}
+
+.suaPiada {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.buttonPesquisar {
+    margin-top: 15px;
+}
+.navHeader {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 nav .logo {
-  height: 150px;
-  width: auto;
+    height: 150px;
+    width: auto;
 }
 
-footer{
-  text-align: center;
-  height: 180px;
+footer {
+    text-align: center;
 }
